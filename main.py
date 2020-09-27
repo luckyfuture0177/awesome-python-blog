@@ -1,5 +1,4 @@
-s = [1,2,4]
-for i in s:
-    i=i+1
-
-print(s)
+def test(n):
+    print(n)
+    test(n+1)
+test(1)
